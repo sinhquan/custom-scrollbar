@@ -1,0 +1,31 @@
+{
+  "name": "custom-scrollbar",
+  "version": "1.0.0",
+  "description": "Custom scrollbar",
+  "main": "src/index.js",
+  "scripts": {
+	"dev": "webpack --mode production --watch --progress",
+    "build": "webpack --mode production --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DungTT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinhquan/custom-scrollbar.git"
+  },
+  "keywords": [
+    "custom",
+    "scrollbar",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/sinhquan/custom-scrollbar/issues"
+  },
+  "homepage": "https://github.com/sinhquan/custom-scrollbar#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
